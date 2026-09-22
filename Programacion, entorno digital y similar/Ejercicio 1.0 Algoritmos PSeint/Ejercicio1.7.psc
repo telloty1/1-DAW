@@ -14,7 +14,7 @@ Algoritmo Ejercicio1_7
 	Si total > 0 Entonces
 		
 		porcentaje_ninos <- (ninos * 100) / total;
-		porcentaje_ninas <- (ninas * 100) / total;
+		porcentaje_ninas <- (ninas * 1000) / total;
 		
 		porcentaje_ninos <- trunc(porcentaje_ninos);
 		porcentaje_ninas <- trunc(porcentaje_ninas);

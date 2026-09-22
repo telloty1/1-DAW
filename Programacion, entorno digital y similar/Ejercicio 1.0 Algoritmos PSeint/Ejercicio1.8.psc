@@ -12,7 +12,7 @@ Algoritmo Ejercicio1_8
     // Nota: Esto para meter todo minusculas y que no de errores luego :P
 	mes <- Minusculas(mes);
 	
-	Si mes = "octubre" Entonces
+	Si mes == "octubre" Entonces
 		descuento <- importe * 0.15; // El 15% de descuento, pisha
 		total_cobrar <- importe - descuento;
 		Escribir "Se aplica un 15% de descuento por ser Octubre, pinshaperita";
