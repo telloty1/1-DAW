@@ -6,7 +6,7 @@ Algoritmo Ejercicio1_18
     
     Para i = 1 Hasta 100 Hacer
 		
-        Si (i mod 2 == 0) o (i mod 3 == 0) Entonces
+        Si ((i mod 2)== 0) o ((i mod 3) == 0) Entonces
 			
             contador = contador + 1;
 			
