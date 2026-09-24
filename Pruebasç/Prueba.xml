@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<animales>
+
+    <animal especie="mamifero">
+        <nombre> León </nombre>
+        <nombrecientifico> Panthera Leo </nombrecientifico>
+    </animal>
+
+    <animal especie="reptil">
+        <nombre> Tortuga </nombre>
+        <nombrecientifico> Testudo graeca </nombrecientifico>
+    </animal>
+
+    <animal especie="ave">
+        <nombre> Águila </nombre>
+        <nombrecientifico> Aquila Chrysaetos </nombrecientifico>
+    </animal>
+
+</animales>
+
