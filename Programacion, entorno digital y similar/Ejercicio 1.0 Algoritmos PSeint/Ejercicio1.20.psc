@@ -9,13 +9,13 @@ Algoritmo Ejercicio1_20
     // Mientras no deje nombre en blanco, ejecuta esto, si lo deja en blanco/vacio, cierra para no dar errores
     Mientras nombre <> "" Hacer
         
-        Escribir "Ingrese la nota práctica (0-10):";
+        Escribir "Ingrese la nota practica (0-10):";
         Leer notaPractica;
         
         Escribir "Ingrese la nota de problemas (0-10):";
         Leer notaProblemas;
         
-        Escribir "Ingrese la nota teórica (0-10):";
+        Escribir "Ingrese la nota teorica (0-10):";
         Leer notaTeorica;
         
         // Revisar que todas sean entre 0 y 10
@@ -35,7 +35,7 @@ Algoritmo Ejercicio1_20
             // Por si da error en alguna nota y lo mismo del comentario de arriba
             Escribir "===========================================";
             Escribir "ERROR: Las notas deben estar entre 0 y 10.";
-            Escribir "No se calculará el promedio de este alumno.";
+            Escribir "No se calculara el promedio de este alumno.";
             Escribir "===========================================";
         FinSi
         
@@ -46,6 +46,5 @@ Algoritmo Ejercicio1_20
         
     FinMientras
     
-    Escribir "Programa finalizado. ¡Gracias!";
     
 FinAlgoritmo
