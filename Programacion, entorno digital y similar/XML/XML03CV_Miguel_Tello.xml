@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cv>
+    <nombre>Miguel</nombre>
+    <apellidos>Tello Bulgakova</apellidos>
+    <fecha_nacimiento>
+        <dia>30</dia>
+        <mes>03</mes>
+        <año>2004</año>
+    </fecha_nacimiento>
+    <residencia>
+        <ciudad>Alcañiz</ciudad>
+        <pais>España</pais>
+    </residencia>
+    <datos_contacto>
+        <telefono>+34 684 13 78 58</telefono>
+        <email>migueltellobulgakov@gmail.com</email>
+        <perfil_linkedin>https://es.linkedin.com/migueltellobulgakova</perfil_linkedin>
+    </datos_contacto>
+    <descripcion_general>
+        <parrafo>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</parrafo>
+    </descripcion_general>
+    <listado_competencias>
+        <competencia>
+            <nombre>Programación en Java</nombre>
+            <nivel>Nulo de momento</nivel>
+        </competencia>
+        <competencia>
+            <nombre>Desarrollo web</nombre>
+            <nivel>Algo</nivel>
+        </competencia>
+    </listado_competencias>
+    <formacion_academica>
+        <formacion>
+            <titulacion>Grado en SMR</titulacion>
+            <año>2022-2024</año>
+            <centro_formacion>CPIFP Bajo Aragón</centro_formacion>
+        </formacion>
+    </formacion_academica>
+    <experiencia_profesional>
+        <experiencia>
+            <puesto> Camarero</puesto>
+            <empresa>PUB Camelot</empresa>
+            <fecha_inicio>01/01/2022</fecha_inicio>
+            <fecha_fin>31/09/2025</fecha_fin>
+        </experiencia>
+    </experiencia_profesional>
+</cv>

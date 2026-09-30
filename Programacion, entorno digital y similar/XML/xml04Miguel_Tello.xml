@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<prestamo_libro id="30092026001"> //Fecha del prestamo + numero de prestamo del dia.
+    <nombre_bibliotecario>Miguel</nombre_bibliotecario>
+    <apellidos_bibliotecario>Tello Bulgakova</apellidos_bibliotecario>
+    <fecha_prestamo>
+        <dia>30</dia>
+        <mes>09</mes>
+        <año>2026</año>
+    </fecha_prestamo>
+    <fecha_devolucion>
+        <dia>30</dia>
+        <mes>10</mes>
+        <año>2026</año>
+    </fecha_devolucion>
+    <datos_lector>
+        <id>12345678X</id>
+        <nombre>Maria</nombre>
+        <apellidos>Lostal Esteban</apellidos>
+        <telefono>+34 645 49 51 24</telefono>
+        <direccion>
+            <tipo_calle>Calle</tipo_calle>
+            <nombre_calle>Calle Mayor</nombre_calle>
+            <numero>12</numero>
+            <piso>1</piso>
+            <letra>A</letra>
+            <codigo_postal>44600</codigo_postal>
+            <localidad>Alcañiz</localidad>
+            <provincia>Teruel</provincia>
+        </direccion>
+    </datos_lector>
+    <libros_prestados>
+        <libro>
+            <titulo>El Quijote</titulo>
+            <autor>Miguel de Cervantes</autor>
+            <isbn>978-84-376-0494-7</isbn>
+        </libro>
+        <libro>
+            <titulo>1984</titulo>
+            <autor>George Orwell</autor>
+            <isbn>978-84-670-1850-6</isbn>
+        </libro>
+        <libro>
+            <titulo>El Principito</titulo>
+            <autor>Antoine de Saint-Exupéry</autor>
+            <isbn>978-84-376-0494-7</isbn>
+        </libro>
+    </libros_prestados>
+</prestamo_libro>
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<viaje>
+    <cliente>
+        <nombre>Miguel</nombre>
+        <apellidos>Tello Bulgakova</apellidos>
+    </cliente>
+    <cliente>
+        <nombre>Maria</nombre>
+        <apellidos>Lostal Esteban</apellidos>
+    </cliente>
+    <fechas>
+        <inicio>30/09/2026</inicio>
+        <fin>5/10/2026</fin>
+    </fechas>
+    <origen>Alcañiz, Teruel, España</origen>
+    <destinos>
+        <destino>
+            <ciudad>ACoruña</ciudad>
+            <hotel>Eurostars Blue Coruña</hotel>
+            <noches>5</noches>
+        </destino>
+        <destino>
+            <ciudad>Roma</ciudad>
+            <hotel>Hotel Eden</hotel>
+            <noches>5</noches>
+        </destino>
+        <destino>
+            <ciudad>Frankfurt</ciudad>
+            <hotel>Kennedy 89 Hotel Frankfurt</hotel>
+            <noches>5</noches>
+        </destino>
+    </destinos>
+    <precio_total>4000€</precio_total>
+</viaje>
