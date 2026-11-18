@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitud</title>
+    <h1>Solicitud de información para una actividad</h1>
+</head>
+<body>
+    <p>Formulario de demostración. No envía datos a ninguna organización</p>
+    <form action="#" method="get">
+        <label for="nombre">Nombre (obligatorio)</label>
+        <input id="nombre" name="nombre" type="text" required><br><br>
+        
+        <label for="correo">Correo electrónico (obligatorio)</label>
+        <input id="correo" name="correo" type="email" required><br><br>
+
+        <label for="fecha">Fecha preferida</label>
+        <input id="fecha" name="fecha" type="date"><br><br>
+
+        <label for="actividad">Actividad de interés: </label>
+        <select id="actividad" name="actividad">
+            <option value="senderismo">Senderismo</option>
+            <option value="ciclismo">Ciclismo</option>
+        </select><br><br>
+
+        <fieldset>
+            <legend>Preferencia de horario</legend>
+            <input name="radio-seleccion" type="radio">
+            <label>Mañana</label>
+            <input name="radio-seleccion" type="radio">
+            <label>Tarde</label>
+        </fieldset><br>
+
+        <label for="comentarios">Comentarios</label>
+        <textarea id="comentarios" name="comentarios"></textarea><br><br>
+
+        <label><input name="acepto" type="checkbox" required>Acepto las condiciones ficticias de esta demostración</label>
+        <br><br>
+        <label><input name="comprobar" type="button" value="Comprobar formulario"></label>
+
+    </form>
+</body>
+</html>
